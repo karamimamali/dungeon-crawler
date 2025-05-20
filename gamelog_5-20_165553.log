@@ -1,0 +1,35 @@
+May 20, 2025 4:55:54 PM gui.Main log
+INFO: Welcome to the most fantastic *Djeneric Dungeon Crawler!*
+
+May 20, 2025 4:55:54 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+
+May 20, 2025 4:55:56 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:55:56 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:55:56 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:55:56 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:55:57 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:55:57 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:55:57 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:55:58 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:55:58 PM gui.Main log
+INFO: 
+**************
+You take the stairs. They lead to another dungeon. Your HP has been reset. Weird.
+
+You hold your breath as you creep through the back entrance of The Putrescent Castle of Rafflesia
+
+
+May 20, 2025 4:56:05 PM gui.Main logFileOnly
+INFO: pressed quit

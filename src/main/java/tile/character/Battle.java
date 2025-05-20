@@ -4,7 +4,7 @@ package tile.character;
  * Handles the battling system, making the player and enemy take turns decreasing each other's hp
  * by certain amounts of damage, and ultimately returning a large string describing the battle
  *
- * @version 1.0
+ * @version 1.1
  * @author tp275
  */
 public class Battle {
@@ -13,6 +13,9 @@ public class Battle {
     private final tile.character.Player player;
     // the Enemy object that will be battling the player
     private final Enemy enemy;
+    // Track player and enemy damage for the current turn
+    private int playerDamage;
+    private int enemyDamage;
 
     /**
      * A class for handling a battle between the player and an enemy.
@@ -79,20 +82,26 @@ public class Battle {
 
     /**
      * Handles the player's turn in the battle. Decreases HP from enemy and checks if it has died.
+     * Stores the randomized damage dealt for use in the battle message.
      *
      * @return False if enemy is dead, else true
      */
     private boolean playerTurn() {
-        return this.enemy.decreaseHp(this.player.getStats().getDamage());
+        // Store the player's damage for this turn
+        this.playerDamage = this.player.getStats().getDamage();
+        return this.enemy.decreaseHp(this.playerDamage);
     }
 
     /**
      * Handles the enemy's turn in the battle. Decreases HP from player and checks if it has died.
+     * Stores the randomized damage dealt for use in the battle message.
      *
      * @return False if player is dead, else true
      */
     private boolean enemyTurn() {
-        return this.player.decreaseHp(this.enemy.getDamage());
+        // Store the enemy's damage for this turn
+        this.enemyDamage = this.enemy.getDamage();
+        return this.player.decreaseHp(this.enemyDamage);
     }
 
     /**
@@ -101,7 +110,14 @@ public class Battle {
      * @return A String telling the player how much damage the enemy did
      */
     private String playerHitEnemyMessage() {
-        return "\nYou hit " + this.enemy.getName() + " for " + this.player.getStats().getDamage() + "HP.";
+        String criticalHit = "";
+        if (this.playerDamage > this.player.getLevel() * 3) {
+            criticalHit = " Critical hit!";
+        } else if (this.playerDamage < this.player.getLevel()) {
+            criticalHit = " Weak hit!";
+        }
+
+        return "\nYou hit " + this.enemy.getName() + " for " + this.playerDamage + "HP." + criticalHit;
     }
 
     /**
@@ -110,7 +126,14 @@ public class Battle {
      * @return A String describing how much damage the enemy did to the player
      */
     private String enemyHitPlayerMessage() {
-        return "\n" + this.enemy.getName() + " hits you for " + this.enemy.getDamage() + "HP.";
+        String criticalHit = "";
+        if (this.enemyDamage > this.enemy.getLevel() * 1.5) {
+            criticalHit = " Critical hit!";
+        } else if (this.enemyDamage < this.enemy.getLevel() * 0.5) {
+            criticalHit = " Weak hit!";
+        }
+
+        return "\n" + this.enemy.getName() + " hits you for " + this.enemyDamage + "HP." + criticalHit;
     }
 
     /**

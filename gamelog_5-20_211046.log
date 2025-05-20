@@ -1,0 +1,96 @@
+May 20, 2025 9:10:46 PM gui.Main log
+INFO: Welcome to the most fantastic *Djeneric Dungeon Crawler!*
+
+May 20, 2025 9:10:46 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+
+May 20, 2025 9:10:49 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:10:49 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 9:10:50 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:10:50 PM gui.Main log
+INFO: You encountered Blerp. Woah. Good luck! Time to battle!
+You hit Blerp for 3HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 9:10:50 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:10:50 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 9:10:51 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:10:51 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 9:10:52 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 9:10:52 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 9:10:53 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:10:53 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 9:10:53 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:10:53 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 9:10:54 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:10:54 PM gui.Main log
+INFO: You encountered Klerp - ew, slimy. Time to battle!
+You hit Klerp for 3HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 9:10:55 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:10:55 PM gui.Main log
+INFO: ⚠️ GOLD DOOR AHEAD ⚠️
+
+May 20, 2025 9:10:55 PM gui.Main log
+INFO: This door requires 2 gold to open. You have 3 gold.
+
+May 20, 2025 9:10:55 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 9:11:00 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:11:00 PM gui.Main log
+INFO: ⚠️ GOLD DOOR AHEAD ⚠️
+
+May 20, 2025 9:11:00 PM gui.Main log
+INFO: This door requires 2 gold to open. You have 3 gold.
+
+May 20, 2025 9:11:00 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 9:11:04 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:11:04 PM gui.Main log
+INFO: ⚠️ GOLD DOOR AHEAD ⚠️
+
+May 20, 2025 9:11:04 PM gui.Main log
+INFO: This door requires 2 gold to open. You have 3 gold.
+
+May 20, 2025 9:11:04 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 9:11:04 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:11:04 PM gui.Main log
+INFO: ⚠️ GOLD DOOR AHEAD ⚠️
+
+May 20, 2025 9:11:04 PM gui.Main log
+INFO: This door requires 2 gold to open. You have 3 gold.
+
+May 20, 2025 9:11:04 PM gui.Main log
+INFO: You can't move here! Try again.
+

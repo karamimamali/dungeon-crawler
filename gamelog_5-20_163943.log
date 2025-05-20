@@ -1,0 +1,347 @@
+May 20, 2025 4:39:44 PM gui.Main log
+INFO: Welcome to the most fantastic *Djeneric Dungeon Crawler!*
+
+May 20, 2025 4:39:44 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+
+May 20, 2025 4:39:49 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:39:49 PM gui.Main log
+INFO: You encountered Blarg, wow they look disgusting. Time to battle!
+You hit Blarg for 2HP.
+Blarg hits you for 1HP.
+You hit Blarg for 3HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 5 xp.
+
+May 20, 2025 4:39:56 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:39:56 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 4:40:01 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:40:01 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+
+May 20, 2025 4:40:01 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:40:01 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:40:02 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:40:02 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:40:03 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:40:03 PM gui.Main log
+INFO: You encountered Herg. Watch out! Time to battle!
+You hit Herg for 3HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 4:40:09 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:40:09 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:40:10 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:40:10 PM gui.Main log
+INFO: There was 1 gold scattered here.
+
+May 20, 2025 4:40:11 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:40:11 PM gui.Main log
+INFO: You encountered Drerf, wow they look disgusting. Time to battle!
+You hit Drerf for 3HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 4:40:16 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 4:40:16 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:40:16 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:40:16 PM gui.Main log
+INFO: You encountered Flumpk. It doesn't seem to like you. Time to battle!
+You hit Flumpk for 3HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 5 xp.
+
+May 20, 2025 4:40:45 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:40:45 PM gui.Main log
+INFO: 
+**************
+You take the stairs. They lead to another dungeon. Your HP has been reset. Weird.
+
+You hold your breath as you creep through the back entrance of The Putrescent Castle of Rafflesia
+
+
+May 20, 2025 4:40:47 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:40:47 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:40:47 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:40:47 PM gui.Main log
+INFO: You encountered Karump. Watch out! Time to battle!
+You hit Karump for 2HP.
+Karump hits you for 3HP.
+You hit Karump for 1HP.
+Karump hits you for 3HP.
+You hit Karump for 1HP.
+Karump hits you for 2HP.
+You hit Karump for 2HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 10 xp.
+You levelled up! Your new level is 2
+
+May 20, 2025 4:41:03 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:03 PM gui.Main log
+INFO: There was 2 gold scattered here.
+
+May 20, 2025 4:41:04 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:04 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:17 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:17 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:19 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:19 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:21 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:21 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:21 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:21 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:22 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:22 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:23 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:23 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:23 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:23 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:24 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:24 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:25 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:25 PM gui.Main log
+INFO: There was 2 gold scattered here.
+
+May 20, 2025 4:41:26 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:26 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:27 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:27 PM gui.Main log
+INFO: There was 2 gold scattered here.
+
+May 20, 2025 4:41:27 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:27 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:29 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:29 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:30 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:30 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:30 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:30 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:31 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:31 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:32 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:32 PM gui.Main log
+INFO: There was 2 gold scattered here.
+
+May 20, 2025 4:41:32 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:32 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:33 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:33 PM gui.Main log
+INFO: There was 2 gold scattered here.
+
+May 20, 2025 4:41:33 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:33 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 4:41:34 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:34 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:34 PM gui.Main logFileOnly
+INFO: pressed help
+May 20, 2025 4:41:34 PM gui.Main log
+INFO: Press the movement buttons to move around the current dungeon. There are 5 dungeons to fight through.
+
+May 20, 2025 4:41:35 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:35 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:36 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:36 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:36 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:36 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:37 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:37 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:37 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:37 PM gui.Main log
+INFO: There was 2 gold scattered here.
+
+May 20, 2025 4:41:38 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:38 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:38 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:38 PM gui.Main log
+INFO: There was 2 gold scattered here.
+
+May 20, 2025 4:41:39 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:39 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 4:41:39 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:39 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:40 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:40 PM gui.Main log
+INFO: You hold your breath as you creep through the back entrance of The Putrescent Castle of Rafflesia
+
+May 20, 2025 4:41:41 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 4:41:41 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:44 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 4:41:44 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:41:44 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 4:41:44 PM gui.Main log
+INFO: You encountered Drerf, wow they look disgusting. Time to battle!
+You hit Drerf for 2HP.
+Drerf hits you for 1HP.
+You hit Drerf for 3HP.
+Drerf hits you for 3HP.
+You hit Drerf for 4HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 10 xp.
+
+May 20, 2025 4:41:53 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:53 PM gui.Main log
+INFO: There was 2 gold scattered here.
+
+May 20, 2025 4:41:57 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:57 PM gui.Main log
+INFO: You encountered Herg. It doesn't seem to like you. Time to battle!
+You hit Herg for 4HP.
+Herg hits you for 1HP.
+You hit Herg for 4HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 10 xp.
+
+May 20, 2025 4:41:57 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:41:57 PM gui.Main log
+INFO: There was 2 gold scattered here.
+
+May 20, 2025 4:41:59 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:59 PM gui.Main log
+INFO: Here lies the corpse of Herg
+
+May 20, 2025 4:41:59 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:41:59 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:42:00 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:42:00 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:42:00 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:42:00 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:42:00 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:42:00 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:42:02 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 4:42:02 PM gui.Main log
+INFO: There was 2 gold scattered here.
+

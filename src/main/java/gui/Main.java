@@ -1,5 +1,6 @@
 package gui;
 
+import tile.GoldDoor;
 import tile.Tile;
 import tile.character.Player;
 
@@ -144,7 +145,10 @@ public class Main extends JFrame {
         right.addActionListener(e -> { logFileOnly("pressed right"); play(new Point(0, 1)); });
         help.addActionListener(e -> {
             logFileOnly("pressed help");
-            log("Press the movement buttons to move around the current dungeon. There are 5 dungeons to fight through.\n");
+            log("Press the movement buttons to move around the current dungeon. There are 5 dungeons to fight through.\n" +
+                    "- Collect gold (g) to spend on opening doors (d)\n" +
+                    "- Defeat enemies (e) to gain XP and level up\n" +
+                    "- Find stairs (x) to proceed to the next floor or dungeon\n");
         });
         quit.addActionListener(e -> {
             logFileOnly("pressed quit");
@@ -190,14 +194,50 @@ public class Main extends JFrame {
     }
 
     private void play(Point movement) {
-        if (player.updateLocation(movement)) {
+        // First check if we're trying to move onto a gold door
+        Point targetPosition = new Point(player.getFloorLocation().x + movement.x, player.getFloorLocation().y + movement.y);
+        Tile targetTile = player.getCurrentFloor().getTileByPoint(targetPosition);
+
+        // Variable to track if we're attempting to move to a gold door
+        boolean movingToGoldDoor = false;
+        int doorCost = 0;
+        int playerGold = player.getGold();
+
+        // If we're trying to move to a gold door and it's closed, check and display cost info
+        if (targetTile instanceof GoldDoor && !((GoldDoor)targetTile).isOpen()) {
+            GoldDoor door = (GoldDoor)targetTile;
+            movingToGoldDoor = true;
+            doorCost = door.getCost();
+        }
+
+        // Try to move (will automatically open door if player has enough gold)
+        boolean moved = player.updateLocation(movement);
+
+        if (moved) {
+            // If we moved to what was a closed gold door, it must have opened automatically
+            if (movingToGoldDoor) {
+                log("You spend " + doorCost + " gold to open the gold door. It swings open, allowing you to pass through.\n");
+            }
+
             log(playTile());
             updateMap();
             updateStats();
             updatePicture();
             checkFinished();
         } else {
-            log("You can't move here! Try again.\n");
+            // If we tried to move to a gold door but couldn't, it's because we don't have enough gold
+            if (movingToGoldDoor) {
+                // The message should only state that the player cannot pass if they don't have enough gold
+                if (playerGold < doorCost) {
+                    log("This door requires " + doorCost + " gold to open. You only have " + playerGold + " gold. You cannot pass through.\n");
+                } else {
+                    // This should never happen if the automatic door opening is working correctly
+                    // but we'll add it as a fallback just in case
+                    log("Error: You should be able to open this door with your " + playerGold + " gold.\n");
+                }
+            } else {
+                log("You can't move here! Try again.\n");
+            }
         }
     }
 
@@ -205,6 +245,17 @@ public class Main extends JFrame {
         String rawMap = player.getPrintableMap();
         String spacedMap = addSpacesBetweenChars(rawMap);
         map.setText("<html><pre>" + spacedMap + "</pre></html>");
+
+        // Map legend
+        String legend = "\nMap Legend:\n" +
+                "P = Player\n" +
+                "g = Gold\n" +
+                "e = Enemy\n" +
+                "d = Gold Door (closed)\n" +
+                "D = Gold Door (open)\n" +
+                "x = Stairs\n" +
+                "s = Start\n" +
+                "o = Empty";
     }
 
     private String addSpacesBetweenChars(String mapText) {

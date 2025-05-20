@@ -11,7 +11,7 @@ import java.util.Random;
  * chosen from lists defined within the class. It is a subclass of Character and
  * therefore has hp, a level and a living status to aid this as well as damage calculated here.
  *
- * @version 1.0
+ * @version 1.1
  * @author tp275
  */
 public class Enemy extends Character {
@@ -59,7 +59,7 @@ public class Enemy extends Character {
                 ". Woah. Good luck!",
                 ", wow they look disgusting.",
                 ", who does not look happy to see you."
-                ));
+        ));
 
         setDescription(getRandomListElement(descriptions));
     }
@@ -81,7 +81,7 @@ public class Enemy extends Character {
                 "The monster comes crashing to the floor...",
                 "Ka-chunk! Blergh!",
                 "Pow! Biff! Wallop! Knock out!"
-                ));
+        ));
 
         this.goodbye = getRandomListElement(goodbyes);
     }
@@ -96,20 +96,22 @@ public class Enemy extends Character {
     }
 
     /**
-     * Returns the damage this enemy should do
+     * Returns the randomized damage this enemy should do
      *
-     * @return The damage this enemy should do per turn - currently set at its level * 5
+     * @return The damage this enemy should do per turn - a random value between 50% and 150% of base damage
      */
     public int getDamage() {
-        return this.getLevel();
+        int baseDamage = this.getLevel();
+        // Calculate a random damage between 50% and 150% of the base damage
+        return baseDamage / 2 + random.nextInt(baseDamage + 1);
     }
 
     /**
-     * Returns the XP the player should gain on defeating this enemy - currently equal to the enemy's damage
+     * Returns the XP the player should gain on defeating this enemy - currently equal to the enemy's level * 5
      *
      * @return The XP the player should gain on defeating this enemy
      */
     public int getXPOnDefeat() {
-        return getDamage() * 5;
+        return this.getLevel() * 5;
     }
 }

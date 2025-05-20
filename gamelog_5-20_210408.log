@@ -1,0 +1,91 @@
+May 20, 2025 9:04:09 PM gui.Main log
+INFO: Welcome to the most fantastic *Djeneric Dungeon Crawler!*
+
+May 20, 2025 9:04:09 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+
+May 20, 2025 9:04:11 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:04:11 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 9:04:13 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:04:13 PM gui.Main log
+INFO: You encountered Wharg, who does not look happy to see you. Time to battle!
+You hit Wharg for 1HP.
+Wharg hits you for 1HP.
+You hit Wharg for 3HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 5 xp.
+
+May 20, 2025 9:04:14 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:04:14 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 9:04:14 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:04:14 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 9:04:15 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 9:04:15 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 9:04:16 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 9:04:16 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 9:04:17 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:04:17 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 9:04:17 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:04:18 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:04:18 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 9:04:19 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 9:04:19 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 9:04:20 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 9:04:20 PM gui.Main log
+INFO: You've already collected the gold from here.
+
+May 20, 2025 9:04:20 PM gui.Main logFileOnly
+INFO: pressed help
+May 20, 2025 9:04:20 PM gui.Main log
+INFO: Press the movement buttons to move around the current dungeon. There are 5 dungeons to fight through.
+
+May 20, 2025 9:04:21 PM gui.Main logFileOnly
+INFO: pressed help
+May 20, 2025 9:04:21 PM gui.Main log
+INFO: Press the movement buttons to move around the current dungeon. There are 5 dungeons to fight through.
+
+May 20, 2025 9:04:22 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:04:22 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 9:04:22 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:04:22 PM gui.Main log
+INFO: You encountered Flumpk - ew, slimy. Time to battle!
+You hit Flumpk for 2HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 9:04:24 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 9:04:24 PM gui.Main log
+INFO: You can't move here! Try again.
+

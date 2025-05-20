@@ -1,0 +1,81 @@
+May 20, 2025 8:58:50 PM gui.Main log
+INFO: Welcome to the most fantastic *Djeneric Dungeon Crawler!*
+
+May 20, 2025 8:58:50 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+
+May 20, 2025 8:58:57 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 8:58:57 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 8:58:57 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 8:58:57 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 8:58:58 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 8:58:58 PM gui.Main log
+INFO: You encountered Klang. Woah. Good luck! Time to battle!
+You hit Klang for 3HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 8:58:59 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 8:58:59 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 8:59:00 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 8:59:00 PM gui.Main log
+INFO: Here lies the corpse of Klang
+
+May 20, 2025 8:59:00 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 8:59:00 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 8:59:01 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 8:59:01 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 8:59:02 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 8:59:02 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 8:59:02 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 8:59:03 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 8:59:03 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 8:59:04 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 8:59:04 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 8:59:05 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 8:59:05 PM gui.Main log
+INFO: You encountered Wharg, who does not look happy to see you. Time to battle!
+You hit Wharg for 3HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 8:59:07 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 8:59:07 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 8:59:07 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 8:59:07 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 8:59:08 PM gui.Main logFileOnly
+INFO: pressed quit

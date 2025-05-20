@@ -1,9 +1,11 @@
 package tile.character;
 
+import java.util.Random;
+
 /**
  * Holds relevant player stats - xp, level and amount of gold - and provides useful methods
  *
- * @version 1.0
+ * @version 1.1
  * @author tp275
  */
 public class PlayerStats {
@@ -14,6 +16,8 @@ public class PlayerStats {
     private int level;
     // the amount of gold the player has
     private int gold;
+    // Random object for generating random damage
+    private final Random random = new Random();
 
     /**
      * Initially sets xp and gold to 0, and the level to the given parameter
@@ -81,13 +85,30 @@ public class PlayerStats {
     }
 
     /**
-     * Returns the damage this player should do. Differs from Enemy's method to
-     * provide a way of varying player and enemy damage
+     * Spends the given amount of gold from the player's total
      *
-     * @return The damage this player should do
+     * @param amount Amount of gold to spend
+     * @return true if player had enough gold, false otherwise
+     */
+    public boolean spendGold(int amount) {
+        if (this.gold >= amount) {
+            this.gold -= amount;
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * Returns the damage this player should do.
+     * Calculates randomized damage based on the player's level.
+     * Base damage is level * 2, with a random range of ±50%.
+     *
+     * @return The randomized damage this player should do
      */
     public int getDamage() {
-        return this.getLevel() * 2;
+        int baseDamage = this.getLevel() * 2;
+        // Calculate a random damage between 50% and 150% of the base damage
+        return baseDamage / 2 + random.nextInt(baseDamage + 1);
     }
 
     /**

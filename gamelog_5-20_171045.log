@@ -1,0 +1,203 @@
+May 20, 2025 5:10:45 PM gui.Main log
+INFO: Welcome to the most fantastic *Djeneric Dungeon Crawler!*
+
+May 20, 2025 5:10:45 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+
+May 20, 2025 5:10:49 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:10:49 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 5:10:55 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:10:55 PM gui.Main log
+INFO: You encountered Klerp, wow they look disgusting. Time to battle!
+You hit Klerp for 2HP.
+Klerp hits you for 1HP.
+You hit Klerp for 1HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 5:10:56 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:10:56 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:10:57 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:10:57 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:10:58 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:10:58 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:10:59 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:01 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:01 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 5:11:01 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:01 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 5:11:03 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 5:11:03 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:04 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 5:11:04 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:04 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:11:04 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:05 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:05 PM gui.Main log
+INFO: You encountered Karump. Watch out! Time to battle!
+You hit Karump for 3HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 5 xp.
+
+May 20, 2025 5:11:10 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 5:11:10 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:14 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 5:11:14 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 5:11:15 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:15 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:15 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:15 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 5:11:16 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:16 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 5:11:17 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 5:11:17 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:17 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 5:11:17 PM gui.Main log
+INFO: You've already collected the gold from here.
+
+May 20, 2025 5:11:18 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 5:11:18 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 5:11:19 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:11:19 PM gui.Main log
+INFO: You've already collected the gold from here.
+
+May 20, 2025 5:11:20 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:20 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:20 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:20 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 5:11:21 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:21 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 5:11:22 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 5:11:22 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:22 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 5:11:22 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:23 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 5:11:23 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:23 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 5:11:23 PM gui.Main log
+INFO: Here lies the corpse of Klerp
+
+May 20, 2025 5:11:24 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 5:11:24 PM gui.Main log
+INFO: You've already collected the gold from here.
+
+May 20, 2025 5:11:25 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:11:25 PM gui.Main log
+INFO: Here lies the corpse of Klerp
+
+May 20, 2025 5:11:26 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:11:26 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:26 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:11:26 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:26 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:11:26 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 5:11:26 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 5:11:26 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 5:11:27 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:27 PM gui.Main log
+INFO: Here lies the corpse of Karump
+
+May 20, 2025 5:11:27 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:27 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 5:11:27 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 5:11:27 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 7:07:38 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 7:07:38 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 7:07:39 PM gui.Main logFileOnly
+INFO: pressed quit

@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 import tile.Empty;
 import tile.Gold;
+import tile.GoldDoor;
 import tile.Stairs;
 import tile.Start;
 import tile.Tile;
@@ -17,7 +18,7 @@ import tile.character.Enemy;
 /**
  * Creates from a file and stores a HashMap of the floor, as Points and Tiles.
  *
- * @version 2.0
+ * @version 2.1
  * @author tp275
  */
 public class Floor {
@@ -87,7 +88,13 @@ public class Floor {
      * @throws Exception if the resource is not found
      */
     private Scanner findFloorplanFile() throws Exception {
-        String filename = "/floorplan" + this.difficulty + "-" + (random.nextInt(3) + 1) + ".txt";
+        int numberOfFloorplans = 3; // Default number of floorplan options per difficulty
+        // Special case for final dungeon (difficulty 4)
+        if (this.difficulty == 4) {
+            numberOfFloorplans = 3; // We've created 3 layouts for the final dungeon
+        }
+
+        String filename = "/floorplan" + this.difficulty + "-" + (random.nextInt(numberOfFloorplans) + 1) + ".txt";
         InputStream inputStream = getClass().getResourceAsStream(filename);
 
         if (inputStream == null) {
@@ -119,6 +126,9 @@ public class Floor {
                 return new Enemy(this.difficulty + 1);
             case 'g':
                 return new Gold(this.difficulty + 1);
+            case 'd':
+                // Gold door with cost based on difficulty
+                return new GoldDoor((this.difficulty + 1) * 2);
         }
         return null;
     }
@@ -142,13 +152,78 @@ public class Floor {
     }
 
     /**
-     * Checks that the tile at the given point is not a wall or outside the bounds of the floor
+     * Checks that the tile at the given point is not a wall or outside the bounds of the floor.
+     * If it's a closed gold door and the player has enough gold, it will automatically open the door.
+     *
+     * @param point - The location to check
+     * @param player - The Player object (needed to check gold for doors)
+     * @return True if floor location contains a usable tile for the player, false otherwise
+     */
+    public boolean checkValidPlayerLocation(Point point, tile.character.Player player) {
+        if (!this.floorPlan.containsKey(point)) {
+            return false;
+        }
+
+        Tile tile = this.floorPlan.get(point);
+
+        // Cannot walk on walls
+        if (tile.getName().equals("Wall")) {
+            return false;
+        }
+
+        // Check if it's a gold door
+        if (tile instanceof GoldDoor) {
+            GoldDoor door = (GoldDoor) tile;
+
+            // If door is already open, allow passage
+            if (door.isOpen()) {
+                return true;
+            }
+
+            // If player has enough gold, automatically open the door and allow passage
+            int playerGold = player.getGold();
+            int doorCost = door.getCost();
+
+            if (playerGold >= doorCost) {
+                // Player has enough gold, open the door
+                player.getStats().spendGold(doorCost);
+                door.open();
+                // Return true to allow passage
+                return true;
+            } else {
+                // Not enough gold, cannot pass
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * Overloaded method for backward compatibility
      *
      * @param point - The location to check
      * @return True if floor location contains a usable tile for the player, false otherwise
+     * @deprecated Use checkValidPlayerLocation(Point, Player) instead
      */
     public boolean checkValidPlayerLocation(Point point) {
-        return this.floorPlan.containsKey(point) && !(this.floorPlan.get(point).getName().equals("Wall"));
+        if (!this.floorPlan.containsKey(point)) {
+            return false;
+        }
+
+        Tile tile = this.floorPlan.get(point);
+
+        // Cannot walk on walls
+        if (tile.getName().equals("Wall")) {
+            return false;
+        }
+
+        // Cannot walk through closed gold doors
+        if (tile instanceof GoldDoor && !((GoldDoor) tile).isOpen()) {
+            return false;
+        }
+
+        return true;
     }
 
     /**
@@ -163,6 +238,16 @@ public class Floor {
             StringBuilder floorRow = new StringBuilder(this.floorPlanStringList[i]);
             if (i == playerLocation.x) {
                 floorRow.setCharAt(playerLocation.y, 'P');
+            }
+            // Update map display to show open doors
+            for (int y = 0; y < floorRow.length(); y++) {
+                Point p = new Point(i, y);
+                if (floorPlan.containsKey(p) && floorPlan.get(p) instanceof GoldDoor) {
+                    GoldDoor door = (GoldDoor) floorPlan.get(p);
+                    if (door.isOpen()) {
+                        floorRow.setCharAt(y, 'D'); // 'D' for open door
+                    }
+                }
             }
             fpString.append(floorRow).append('\n');
         }

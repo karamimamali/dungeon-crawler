@@ -5,34 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede53df8-9251-46b9-b384-d39097f4ff3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/res/GUI.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/design.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/dungeon0-abonden.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/GUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locations/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/Dungeon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/locations/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/Floor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/locations/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Empty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Empty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tile/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Gold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Stairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Stairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Wall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/PlayerStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/PlayerStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/dungeon0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/dungeon0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/dungeon1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/dungeon1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FloorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan0-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan0-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan0-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan0-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan0-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan0-3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan1-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan1-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan1-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan1-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan1-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan1-3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan2-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan2-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan2-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan2-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan2-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan2-3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan3-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan3-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan3-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan3-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/floorplan3-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/floorplan3-3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +49,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -70,6 +70,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2xEYTeXEDpDarQIy8MgOpOBUYHb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -181,7 +184,7 @@
       <workItem from="1747506186750" duration="115000" />
       <workItem from="1747506307539" duration="354000" />
       <workItem from="1747506668112" duration="14009000" />
-      <workItem from="1747738982410" duration="4529000" />
+      <workItem from="1747738982410" duration="9955000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,187 @@
+May 20, 2025 4:45:46 PM gui.Main log
+INFO: Welcome to the most fantastic *Djeneric Dungeon Crawler!*
+
+May 20, 2025 4:45:46 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+
+May 20, 2025 4:45:49 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:45:49 PM gui.Main log
+INFO: You encountered Drerf. Watch out! Time to battle!
+You hit Drerf for 3HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 4:45:52 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:45:52 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+
+May 20, 2025 4:45:54 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:45:54 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:45:54 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:45:54 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:45:55 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:45:55 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 4:45:56 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:45:57 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:45:57 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 4:45:59 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:45:59 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 4:46:01 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 4:46:01 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:04 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:04 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:04 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:46:04 PM gui.Main log
+INFO: You've already collected the gold from here.
+
+May 20, 2025 4:46:05 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:46:05 PM gui.Main log
+INFO: You encountered Herg - ew, slimy. Time to battle!
+You hit Herg for 3HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 5 xp.
+
+May 20, 2025 4:46:06 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 4:46:06 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:07 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:07 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:07 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 4:46:07 PM gui.Main log
+INFO: You've already collected the gold from here.
+
+May 20, 2025 4:46:09 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:46:09 PM gui.Main log
+INFO: Here lies the corpse of Herg
+
+May 20, 2025 4:46:10 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 4:46:10 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:10 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:46:10 PM gui.Main log
+INFO: You encountered Blerp - ew, slimy. Time to battle!
+You hit Blerp for 3HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 4:46:12 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:12 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:13 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:13 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:13 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:13 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:13 PM gui.Main log
+INFO: You found 1 gold!
+
+May 20, 2025 4:46:16 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:46:16 PM gui.Main log
+INFO: You encountered Blerp. It doesn't seem to like you. Time to battle!
+You hit Blerp for 3HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 5 xp.
+
+May 20, 2025 4:46:16 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:46:16 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:16 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:46:16 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:16 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:46:16 PM gui.Main log
+INFO: Here lies the corpse of Blerp
+
+May 20, 2025 4:46:17 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:46:17 PM gui.Main log
+INFO: 
+**************
+You take the stairs. They lead to another dungeon. Your HP has been reset. Weird.
+
+You hold your breath as you creep through the back entrance of The Putrescent Castle of Rafflesia
+
+
+May 20, 2025 4:46:17 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 4:46:17 PM gui.Main log
+INFO: You can't move here! Try again.
+
+May 20, 2025 4:46:18 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:18 PM gui.Main log
+INFO: You encountered Drerf, a terrifying beasty I must say. Time to battle!
+You hit Drerf for 2HP.
+Drerf hits you for 3HP.
+You hit Drerf for 1HP.
+Drerf hits you for 3HP.
+You hit Drerf for 2HP.
+Drerf hits you for 3HP.
+You hit Drerf for 3HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 10 xp.
+You levelled up! Your new level is 2
+
+May 20, 2025 4:46:18 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:18 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:18 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:18 PM gui.Main log
+INFO: There is nothing here
+
+May 20, 2025 4:46:18 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 4:46:18 PM gui.Main log
+INFO: There is nothing here
+

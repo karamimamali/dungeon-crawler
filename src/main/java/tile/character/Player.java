@@ -6,6 +6,7 @@ import locations.Dungeon;
 import locations.Floor;
 import locations.Map;
 import tile.Gold;
+import tile.GoldDoor;
 import tile.Tile;
 
 /**
@@ -14,7 +15,7 @@ import tile.Tile;
  * The map of the world, containing all Dungeon and Floor objects, is created, held and accessed here.
  * Also keeps track of the location of the player on the current floor.
  *
- * @version 2.0
+ * @version 2.1
  * @author tp275
  */
 public class Player extends Character {
@@ -57,44 +58,64 @@ public class Player extends Character {
     public String playTile(Tile tile) {
         switch (tile.getClass().getSimpleName()) {
 
-        case "Enemy":
-            // cast tile to Enemy
-            Enemy enemy = (Enemy) tile;
-            // create battle
-            Battle battle = new Battle(this, enemy);
-            // start and print results
-            return battle.startBattle();
+            case "Enemy":
+                // cast tile to Enemy
+                Enemy enemy = (Enemy) tile;
+                // create battle
+                Battle battle = new Battle(this, enemy);
+                // start and print results
+                return battle.startBattle();
 
-        case "Gold":
-            Gold gold = (Gold)tile;
-            stats.addGold(gold.getValue());
-            return "There was " + gold.getValue() + " gold scattered here.";
-
-        case "Stairs":
-            // try to go down a floor. if there are no more floors to go to...
-            if (!descendFloor()) {
-                // ...check if this is the last dungeon...
-                if (getCurrentDungeon().isLastDungeon()) {
-                    // ...if it is, then assume VICTORY!
-                    setVictory();
-                    setAlive(false); // do this to allow victory check in controller
-                    return "";
+            case "Gold":
+                Gold gold = (Gold)tile;
+                if (!gold.isCollected()) {
+                    stats.addGold(gold.getValue());
+                    gold.collect(); // Mark as collected
+                    return "You found " + gold.getValue() + " gold!";
                 } else {
-                    // otherwise, go to the next dungeon
-                    setDungeon(this.currentDungeonID+1);
-                    resetHP(); // and reset the player's hp
-                    return "\n**************\nYou take the stairs. They lead to another dungeon. "
-                         + "Your HP has been reset. Weird.\n\n" + getCurrentDungeon().getIntro() + "\n";
+                    return gold.getDescription(); // Already collected message
                 }
-            } else { // if going down a floor was successful:
-                return "\nYou take the stairs, going down another floor...\n";
-            }
 
-        case "Start":
-            return getCurrentDungeon().getIntro();
+            case "GoldDoor":
+                GoldDoor door = (GoldDoor)tile;
+                if (door.isOpen()) {
+                    return "An open door. You already paid the " + door.getCost() + " gold toll.";
+                } else {
+                    int cost = door.getCost();
+                    if (stats.getGold() >= cost) {
+                        stats.spendGold(cost);
+                        door.open();
+                        return "You spend " + cost + " gold to open the door. It swings open with a satisfying click!";
+                    } else {
+                        return "This door requires " + cost + " gold to open. You only have " + stats.getGold() + " gold. Come back when you have enough!";
+                    }
+                }
 
-        case "Empty":
-            return tile.getDescription();
+            case "Stairs":
+                // try to go down a floor. if there are no more floors to go to...
+                if (!descendFloor()) {
+                    // ...check if this is the last dungeon...
+                    if (getCurrentDungeon().isLastDungeon()) {
+                        // ...if it is, then assume VICTORY!
+                        setVictory();
+                        setAlive(false); // do this to allow victory check in controller
+                        return "";
+                    } else {
+                        // otherwise, go to the next dungeon
+                        setDungeon(this.currentDungeonID+1);
+                        resetHP(); // and reset the player's hp
+                        return "\n**************\nYou take the stairs. They lead to another dungeon. "
+                                + "Your HP has been reset. Weird.\n\n" + getCurrentDungeon().getIntro() + "\n";
+                    }
+                } else { // if going down a floor was successful:
+                    return "\nYou take the stairs, going down another floor...\n";
+                }
+
+            case "Start":
+                return getCurrentDungeon().getIntro();
+
+            case "Empty":
+                return tile.getDescription();
         }
         return "Error: Player's playTile: end reached. Tile name = " + tile.getClass().getSimpleName();
     }
@@ -201,11 +222,20 @@ public class Player extends Character {
     }
 
     /**
+     * Returns the current location of the player on the floor
+     *
+     * @return The current Point location of the player
+     */
+    public Point getFloorLocation() {
+        return this.floorLocation;
+    }
+
+    /**
      * Returns the Floor object that the player is currently on
      *
      * @return The Floor object that the player is currently on
      */
-    private Floor getCurrentFloor() {
+    public Floor getCurrentFloor() {
         return this.getCurrentDungeon().getFloorByID(this.currentFloorID);
     }
 

@@ -118,3 +118,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Developed by karamimamali with UI enhancements by tp275
 - Background music: "Fight for the Future" (track #336841)
+
+## UML
+
+![UML diagram](src/main/res/UML.png)

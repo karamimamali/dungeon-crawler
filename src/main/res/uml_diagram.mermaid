@@ -1,0 +1,251 @@
+classDiagram
+    %% Base classes
+    class Tile {
+        -String name
+        -String description
+        +setName(String)
+        +getName() String
+        #setDescription(String)
+        +getDescription() String
+    }
+    
+    %% Tile subclasses
+    class Empty {
+        +Empty()
+    }
+    class Gold {
+        -int value
+        -boolean collected
+        +Gold(int)
+        +getValue() int
+        +collect()
+        +isCollected() boolean
+    }
+    class GoldDoor {
+        -int cost
+        -boolean isOpen
+        +GoldDoor(int)
+        +getCost() int
+        +open()
+        +isOpen() boolean
+    }
+    class Stairs {
+        +Stairs()
+    }
+    class Start {
+        +Start()
+    }
+    class Wall {
+        +Wall()
+    }
+    
+    %% Character hierarchy
+    class Character {
+        -int hp
+        -int level
+        -boolean alive
+        +Character(int)
+        +getLevel() int
+        +getHp() int
+        +resetHP()
+        +decreaseHp(int) boolean
+        +isAlive() boolean
+        +setAlive(Boolean)
+    }
+    
+    class Enemy {
+        -Random random
+        -String goodbye
+        +Enemy(int)
+        -setName()
+        -setDescription()
+        +getGoodbye() String
+        -setGoodbye()
+        -getRandomListElement(List~String~) String
+        +getDamage() int
+        +getXPOnDefeat() int
+    }
+    
+    class Player {
+        -PlayerStats stats
+        -Map worldMap
+        -boolean victory
+        -int currentDungeonID
+        -int currentFloorID
+        -Point floorLocation
+        +Player(int)
+        +playTile(Tile) String
+        +updateLocation(Point) boolean
+        +getCurrentDungeon() Dungeon
+        +getCurrentDungeonID() int
+        +getCurrentFloorID() int
+        +getGold() int
+        +getLevel() int
+        +getXp() int
+        -setDungeon(int)
+        -descendFloor() boolean
+        +getFloorLocation() Point
+        +getCurrentFloor() Floor
+        -setFloorLocation(Point) boolean
+        -resetFloorLocation()
+        +getFloorTile() Tile
+        +getPrintableMap() String
+        +isVictorious() boolean
+        -setVictory()
+        +getStats() PlayerStats
+    }
+    
+    class PlayerStats {
+        -int xp
+        -int level
+        -int gold
+        -Random random
+        +PlayerStats(int)
+        +getLevel() int
+        -incrementLevel()
+        +getXp() int
+        +addXp(int) boolean
+        +getGold() int
+        +addGold(int)
+        +spendGold(int) boolean
+        +getDamage() int
+        +toString() String
+    }
+    
+    class Battle {
+        -Player player
+        -Enemy enemy
+        +Battle(Player, Enemy)
+        +startBattle() String
+        -addPlayerXP() boolean
+        -playerTurn() boolean
+        -enemyTurn() boolean
+        -playerHitEnemyMessage() String
+        -enemyHitPlayerMessage() String
+        -isOngoing() boolean
+        -getLevel(Player) int
+    }
+    
+    %% Location classes
+    class Map {
+        -ArrayList~Dungeon~ dungeonList
+        -int howManyDungeons
+        +Map()
+        -populateDungeonList()
+        +getDungeonByID(int) Dungeon
+        +getHowManyDungeons() int
+    }
+    
+    class Dungeon {
+        -int difficulty
+        -int id
+        -ArrayList~Floor~ floorList
+        -boolean isLastDungeon
+        -String intro
+        +Dungeon(int, int)
+        -populateFloors(int)
+        +getID() int
+        +getFloorByID(int) Floor
+        +isLastDungeon() boolean
+        +setLastDungeon()
+        +getIntro() String
+        -setIntro()
+    }
+    
+    class Floor {
+        -Point startPos
+        -int difficulty
+        -HashMap~Point, Tile~ floorPlan
+        -String[] floorPlanStringList
+        -int id
+        -Random random
+        +Floor(int, int)
+        -createFloorPlan()
+        -findFloorplanFile() Scanner
+        -convertCharToTile(char, Point) Tile
+        +getID() int
+        +getDifficulty() int
+        +checkValidPlayerLocation(Point, Player) boolean
+        +checkValidPlayerLocation(Point) boolean
+        +getFloorMap(Point) String
+        +getTileByPoint(Point) Tile
+        +getStartPos() Point
+    }
+    
+    %% GUI classes
+    class Main {
+        -JTextPane log
+        -JPanel mapPanel
+        -JPanel dungeonImagePanel
+        -JButton up, down, left, right, help, quit
+        -JProgressBar hpBar, xpBar
+        -JPanel minimap
+        -Player player
+        -Logger logger
+        -Clip backgroundMusic
+        -Map~String, Color~ tileColors
+        +Main()
+        -initializeTileColors()
+        -initializeLogger()
+        -initializeUI()
+        -createLeftPanel() JPanel
+        -createStatsPanel() JPanel
+        -createCenterPanel() JPanel
+        -createButtonsPanel() JPanel
+        -createButton(String, Font, int, int, String, Color, Color) JButton
+        -createRightPanel() JPanel
+        -initializeGame()
+        -initializeAnimations()
+        -handleMovement(Point)
+        -playBackgroundMusic(String)
+        -stopBackgroundMusic()
+        -getDirectionName(Point) String
+        -animateMovement(Point)
+        -getTileResultColor(String) Color
+        -playTile() String
+        -updateStats()
+        -updatePicture()
+        -createDungeonPlaceholder() BufferedImage
+        -updateMap()
+        -checkFinished()
+        -showVictoryScreen()
+        -enableButtons()
+        -showHelp(ActionEvent)
+        -log(String, Color)
+        -log(String)
+        -logFileOnly(String)
+        -playSound(String)
+        +main(String[]) static
+    }
+    
+    %% Relationships
+    Tile <|-- Empty
+    Tile <|-- Gold
+    Tile <|-- GoldDoor
+    Tile <|-- Stairs
+    Tile <|-- Start
+    Tile <|-- Wall
+    Tile <|-- Character
+    
+    Character <|-- Enemy
+    Character <|-- Player
+    
+    Player *-- PlayerStats
+    Player *-- Map
+    Player -- Battle
+    
+    Map *-- Dungeon
+    Dungeon *-- Floor
+    Floor *-- Tile
+    
+    Main *-- Player
+    Battle *-- Player
+    Battle *-- Enemy
+    
+    %% Notes
+    note for Tile "Base class for all game elements"
+    note for Character "Base class for all characters"
+    note for Player "Main player character controlled by user"
+    note for Enemy "Opponents that the player battles"
+    note for Map "Manages all dungeons in the game world"
+    note for Main "Main GUI class and game controller"

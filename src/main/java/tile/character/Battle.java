@@ -1,26 +1,26 @@
-package main.java.tile.character;
+package tile.character;
 
 /**
  * Handles the battling system, making the player and enemy take turns decreasing each other's hp
  * by certain amounts of damage, and ultimately returning a large string describing the battle
- * 
+ *
  * @version 1.0
  * @author tp275
  */
 public class Battle {
 
     // the Player object that will be battling the enemy
-    private final Player player;
+    private final tile.character.Player player;
     // the Enemy object that will be battling the player
     private final Enemy enemy;
 
     /**
-     * A class for handling a battle between the player and an enemy. 
-     * 
+     * A class for handling a battle between the player and an enemy.
+     *
      * @param player The Player object that will be battling the enemy
      * @param enemy The Enemy object that will be battling the player
      */
-    public Battle (Player player, Enemy enemy) {
+    public Battle (Player player, tile.character.Enemy enemy) {
         this.player = player;
         this.enemy = enemy;
     }
@@ -28,7 +28,7 @@ public class Battle {
     /**
      * Runs the battle logic, making the player and enemy take turns decreasing each other's hp
      * by certain amounts of damage, and ultimately returning a large string describing the battle
-     * 
+     *
      * @return All of the text generated during the (automatic) battle, ready for printing by the UI
      */
     public String startBattle() {
@@ -70,7 +70,7 @@ public class Battle {
 
     /**
      * Adds XP to the player (using playerStats)
-     * 
+     *
      * @return True if the player levelled up, else false
      */
     private boolean addPlayerXP() {
@@ -79,7 +79,7 @@ public class Battle {
 
     /**
      * Handles the player's turn in the battle. Decreases HP from enemy and checks if it has died.
-     * 
+     *
      * @return False if enemy is dead, else true
      */
     private boolean playerTurn() {
@@ -88,7 +88,7 @@ public class Battle {
 
     /**
      * Handles the enemy's turn in the battle. Decreases HP from player and checks if it has died.
-     * 
+     *
      * @return False if player is dead, else true
      */
     private boolean enemyTurn() {

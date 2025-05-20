@@ -1,4 +1,4 @@
-package main.java.tile;
+package tile;
 
 /**
  * A Start tile, where the player will enter each floor
@@ -6,7 +6,7 @@ package main.java.tile;
  * @version 1.0
  * @author tp275
  */
-public class Start extends Tile {
+public class Start extends tile.Tile {
 
     /**
      * Sets the name of the Start tile (description isn't used here)

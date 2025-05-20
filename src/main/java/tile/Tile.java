@@ -1,4 +1,4 @@
-package main.java.tile;
+package tile;
 
 /**
  * A Floor is made up of these. Designed to be inherited by eg. Start, Stairs, Enemy, Player -

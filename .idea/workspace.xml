@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ede53df8-9251-46b9-b384-d39097f4ff3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/res/GUI.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/design.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/dungeon0-abonden.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/GUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locations/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/Dungeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locations/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/Floor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locations/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Empty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Empty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Gold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Stairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Stairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tile/character/PlayerStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/character/PlayerStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/dungeon0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/dungeon0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/dungeon1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/dungeon1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FloorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2xEYTeXEDpDarQIy8MgOpOBUYHb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.djeneric-dungeon-crawler [:gui.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Desktop/djeneric-dungeon-crawler&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/res" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.gui.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.gui.Main" />
+      <module name="djeneric-dungeon-crawler.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.gui.Main" />
+      <module name="dungeon-crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.Main" />
+      <module name="djeneric-dungeon-crawler.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="dungeon-crawler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="dungeon-crawler" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.gui.Main" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ede53df8-9251-46b9-b384-d39097f4ff3e" name="Changes" comment="" />
+      <created>1747504708790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747504708790</updated>
+      <workItem from="1747504709891" duration="1147000" />
+      <workItem from="1747505867621" duration="10000" />
+      <workItem from="1747505888739" duration="285000" />
+      <workItem from="1747506186750" duration="115000" />
+      <workItem from="1747506307539" duration="354000" />
+      <workItem from="1747506668112" duration="14009000" />
+      <workItem from="1747738982410" duration="4529000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

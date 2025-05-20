@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add other dependencies if needed
+}
+
+application {
+    mainClass.set('gui.Main')
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDir 'src/main/res'
+        }
+    }
+}

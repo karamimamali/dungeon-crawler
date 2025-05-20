@@ -1,8 +1,8 @@
-package main.java.tile.character;
+package tile.character;
 
 /**
  * Holds relevant player stats - xp, level and amount of gold - and provides useful methods
- * 
+ *
  * @version 1.0
  * @author tp275
  */
@@ -17,7 +17,7 @@ public class PlayerStats {
 
     /**
      * Initially sets xp and gold to 0, and the level to the given parameter
-     * 
+     *
      * @param level The initial level of the player
      */
     public PlayerStats(int level) {
@@ -41,14 +41,14 @@ public class PlayerStats {
     private void incrementLevel() {
         this.level += 1;
     }
-    
+
     public int getXp() {
         return this.xp;
     }
 
     /**
      * Adds given xp to total xp. Increments player level and displays message when xp is over certain amounts
-     * 
+     *
      * @param xp The amount of xp to increase current total by
      * @return True if player has levelled up, else false
      */
@@ -73,7 +73,7 @@ public class PlayerStats {
 
     /**
      * Adds given amount of gold to total gold
-     * 
+     *
      * @param gold Amount of gold to add to total gold
      */
     public void addGold(int gold) {
@@ -81,9 +81,9 @@ public class PlayerStats {
     }
 
     /**
-     * Returns the damage this player should do. Differs from Enemy's method to 
+     * Returns the damage this player should do. Differs from Enemy's method to
      * provide a way of varying player and enemy damage
-     * 
+     *
      * @return The damage this player should do
      */
     public int getDamage() {

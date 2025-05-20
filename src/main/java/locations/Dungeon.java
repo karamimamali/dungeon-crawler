@@ -1,4 +1,4 @@
-package main.java.locations;
+package locations;
 
 import java.util.ArrayList;
 
@@ -15,7 +15,7 @@ public class Dungeon {
     // a unique ID number for this dungeon
     private final int id;
     // a list containing every Floor object in this dungeon - size varies with difficulty
-    private final ArrayList<Floor> floorList = new ArrayList<>();
+    private final ArrayList<locations.Floor> floorList = new ArrayList<>();
     // stores whether or not this dungeon is the final one in the game
     private boolean isLastDungeon = false;
     // the intro text to be played on entering the dungeon
@@ -39,7 +39,7 @@ public class Dungeon {
      */
     private void populateFloors(int amount) {
         for (int i = 0; i < amount; i++) {
-            floorList.add(new Floor(this.difficulty, i));
+            floorList.add(new locations.Floor(this.difficulty, i));
         }
     }
 
@@ -57,8 +57,8 @@ public class Dungeon {
      * 
      * @return A Floor from the floorList that matches the given ID number; null if no match
      */
-    public Floor getFloorByID(int id) {
-        for (Floor f : this.floorList) {
+    public locations.Floor getFloorByID(int id) {
+        for (locations.Floor f : this.floorList) {
             if (f.getID() == id) {
                 return f;
             }

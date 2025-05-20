@@ -1,8 +1,8 @@
-package main.java.tile.character;
+package tile.character;
 
 import java.security.InvalidParameterException;
 
-import main.java.tile.Tile;
+import tile.Tile;
 
 /**
  * A Character class designed to be inherited by an Enemy and a Player. Extends Tile functionality

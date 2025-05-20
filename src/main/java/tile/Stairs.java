@@ -1,4 +1,4 @@
-package main.java.tile;
+package tile;
 
 /**
  * A Stairs tile, should send the player down a level in the dungeon, or to the next dungeon
@@ -6,7 +6,7 @@ package main.java.tile;
  * @version 1.0
  * @author tp275
  */
-public class Stairs extends Tile {
+public class Stairs extends tile.Tile {
 
     /**
      * Sets the name and description of the Stairs tile

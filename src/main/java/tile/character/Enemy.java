@@ -1,4 +1,4 @@
-package main.java.tile.character;
+package tile.character;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,8 +9,8 @@ import java.util.Random;
  * This class defines an enemy that can be stored within the floor plan
  * and encountered and fought by the player. Its name and description are randomly
  * chosen from lists defined within the class. It is a subclass of Character and
- * therefore has hp, a level and a living status to aid this as well as damage calculated here. 
- * 
+ * therefore has hp, a level and a living status to aid this as well as damage calculated here.
+ *
  * @version 1.0
  * @author tp275
  */
@@ -94,7 +94,7 @@ public class Enemy extends Character {
     private String getRandomListElement(List<String> list) {
         return list.get(this.random.nextInt(list.size()));
     }
-    
+
     /**
      * Returns the damage this enemy should do
      *

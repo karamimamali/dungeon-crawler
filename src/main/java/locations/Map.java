@@ -1,10 +1,10 @@
-package main.java.locations;
+package locations;
 
 import java.util.ArrayList;
 
 /**
  * Populates and holds in an ArrayList all the Dungeon objects in the game world
- * 
+ *
  * @version 1.0
  * @author tp275
  */
@@ -35,7 +35,7 @@ public class Map {
 
     /**
      * Returns the Dungeon from the dungeonList that matches the given ID
-     * 
+     *
      * @param id - The unique ID number of the dungeon that is wanted
      * @return Dungeon from dungeonList with given ID, else null
      */
@@ -50,7 +50,7 @@ public class Map {
 
     /**
      * Returns the limit on the number of dungeons there are in the world map
-     * 
+     *
      * @return Limit on number of dungeons there are in the world map
      */
     public int getHowManyDungeons() {

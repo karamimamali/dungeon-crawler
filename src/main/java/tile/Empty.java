@@ -1,4 +1,4 @@
-package main.java.tile;
+package tile;
 
 /**
  * Simply an empty tile for the player to stand on. Does nothing, but enables there
@@ -7,7 +7,7 @@ package main.java.tile;
  * @version 1.0
  * @author tp275
  */
-public class Empty extends Tile {
+public class Empty extends tile.Tile {
 
     /**
      * Sets the name and description of the Empty tile

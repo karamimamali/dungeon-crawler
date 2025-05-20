@@ -1,26 +1,26 @@
-package main.java.tile.character;
+package tile.character;
 
 import java.awt.Point;
 
-import main.java.locations.Dungeon;
-import main.java.locations.Floor;
-import main.java.locations.Map;
-import main.java.tile.Gold;
-import main.java.tile.Tile;
+import locations.Dungeon;
+import locations.Floor;
+import locations.Map;
+import tile.Gold;
+import tile.Tile;
 
 /**
  * The Player object, containing the main playTile method, which carries out the relevant effects
  * on the player and gives the log a string to print
  * The map of the world, containing all Dungeon and Floor objects, is created, held and accessed here.
  * Also keeps track of the location of the player on the current floor.
- * 
+ *
  * @version 2.0
  * @author tp275
  */
 public class Player extends Character {
 
     // holds and provides methods for the player's xp, level and gold
-    private final PlayerStats stats;
+    private final tile.character.PlayerStats stats;
     // the main Map object, holding all the dungeons and providing some utility methods
     private final Map worldMap = new Map();
     // records whether or not the player has won the game
@@ -40,7 +40,7 @@ public class Player extends Character {
      */
     public Player(int level) {
         super(level);
-        this.stats = new PlayerStats(level);
+        this.stats = new tile.character.PlayerStats(level);
         this.currentDungeonID = 0;
         this.currentFloorID = 0;
         resetHP();
@@ -50,7 +50,7 @@ public class Player extends Character {
     /**
      * May perform actions depending on the tile given, and returns a string for the ui's playTile
      * method to print (or check for in the case of an enemy)
-     * 
+     *
      * @param tile The Tile to play
      * @return A descriptive String for the UI to print, or check for in the case of Enemy
      */
@@ -101,12 +101,12 @@ public class Player extends Character {
 
     /**
      * Updates the player's location on the floor by given direction, if the resulting location is valid
-     * 
+     *
      * @param direction The direction to move, in the form of a vector Point
      * @return true if new location is valid, else false
      */
     public boolean updateLocation(Point direction) {
-        // create a copy of current location point 
+        // create a copy of current location point
         Point clonedPoint = new Point(this.floorLocation.x, this.floorLocation.y);
         // move in specified direction
         clonedPoint.translate(direction.x, direction.y);
@@ -116,53 +116,53 @@ public class Player extends Character {
 
     /**
      * Returns the dungeon object that the player is currently in
-     * 
+     *
      * @return The dungeon object that the player is currently in
      */
     public Dungeon getCurrentDungeon() {
         return this.worldMap.getDungeonByID(currentDungeonID);
     }
-    
+
     /**
      * Returns the ID of the dungeon that the player is currently in
-     * 
+     *
      * @return The ID of the dungeon that the player is currently in
      */
     public int getCurrentDungeonID() {
         return this.currentDungeonID;
     }
-    
+
     /**
      * Returns the ID of the floor that the player is currently in
-     * 
+     *
      * @return The ID of the floor that the player is currently in
      */
     public int getCurrentFloorID() {
         return this.currentFloorID;
     }
-    
+
     /**
      * Returns the player's current gold level (from PlayerStats)
-     * 
+     *
      * @return The player's current gold level (from PlayerStats)
      */
     public int getGold() {
         return this.stats.getGold();
     }
-    
+
     /**
      * Returns the player's current level (from PlayerStats)
-     * 
+     *
      * @return The player's current level (from PlayerStats)
      */
     @Override
     public int getLevel() {
         return this.stats.getLevel();
     }
-    
+
     /**
      * Returns the player's current amount of XP (from PlayerStats)
-     * 
+     *
      * @return The player's current amount of XP (from PlayerStats)
      */
     public int getXp() {
@@ -172,7 +172,7 @@ public class Player extends Character {
     /**
      * Sets the current dungeon that the player is in, by given ID,
      * checking that the ID is no less than the total number of dungeons
-     * 
+     *
      * @param id The ID of the Dungeon to set
      * @throws IllegalArgumentException When dungeon ID is > total # of dungeons
      */
@@ -188,7 +188,7 @@ public class Player extends Character {
 
     /**
      * Attempts to change current floor to next floor in dungeon (ID+1)
-     * 
+     *
      * @return true if change is successful, false if floor ID is out of bounds (max. ID is dungeon's difficulty level)
      */
     private boolean descendFloor() {
@@ -202,7 +202,7 @@ public class Player extends Character {
 
     /**
      * Returns the Floor object that the player is currently on
-     * 
+     *
      * @return The Floor object that the player is currently on
      */
     private Floor getCurrentFloor() {
@@ -211,7 +211,7 @@ public class Player extends Character {
 
     /**
      * Sets the player's location on the current floor to be the given Point, if given Point is valid on the floor
-     * 
+     *
      * @param location - The location on the floor to set as the player's location
      * @return True if location is valid, else false
      */
@@ -232,7 +232,7 @@ public class Player extends Character {
 
     /**
      * Returns the floor Tile that the player is currently standing on
-     * 
+     *
      * @return The floor Tile that the player is currently standing on
      */
     public Tile getFloorTile() {
@@ -240,9 +240,9 @@ public class Player extends Character {
     }
 
     /**
-     * Returns a ready-to-print string of the character representation 
+     * Returns a ready-to-print string of the character representation
      * of the floor plan, with the player's location shown on it
-     * 
+     *
      * @return A string of the character representation of the floor plan
      */
     public String getPrintableMap() {
@@ -270,7 +270,7 @@ public class Player extends Character {
      *
      * @return The player's PlayerStats object
      */
-    public PlayerStats getStats() {
+    public tile.character.PlayerStats getStats() {
         return this.stats;
     }
 }

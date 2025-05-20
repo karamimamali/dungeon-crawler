@@ -1,4 +1,4 @@
-package main.java.tile;
+package tile;
 
 /**
  * A wall. Borders the playable tiles on the floor, but the

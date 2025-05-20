@@ -1,4 +1,4 @@
-package main.java.tile;
+package tile;
 
 /**
  * A Gold tile for the player to discover and be happy about.
@@ -7,7 +7,7 @@ package main.java.tile;
  * @version 1.0
  * @author tp275
  */
-public class Gold extends Tile {
+public class Gold extends tile.Tile {
 
     // the value/amount of gold in this Gold object
     private final int value;

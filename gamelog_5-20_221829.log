@@ -1,0 +1,1185 @@
+May 20, 2025 10:18:30 PM gui.Main log
+INFO: Welcome to the most fantastic *Djeneric Dungeon Crawler!*
+May 20, 2025 10:18:30 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+May 20, 2025 10:18:34 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:18:34 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:18:34 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:18:34 PM gui.Main log
+INFO: You encountered Karump. It doesn't seem to like you. Time to battle!
+You hit Karump for 3HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 5 xp.
+May 20, 2025 10:18:36 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:18:36 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:18:36 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:18:36 PM gui.Main log
+INFO: You found 1 gold!
+May 20, 2025 10:18:43 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:18:43 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:18:43 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:18:43 PM gui.Main log
+INFO: Here lies the corpse of Karump
+May 20, 2025 10:18:49 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:18:49 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:18:49 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:18:49 PM gui.Main log
+INFO: You found 1 gold!
+May 20, 2025 10:18:54 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:18:54 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:18:54 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:18:56 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:18:56 PM gui.Main log
+INFO: You can't move here! Try again.
+May 20, 2025 10:18:56 PM gui.Main logFileOnly
+INFO: Playing sound: bump
+May 20, 2025 10:18:56 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:18:56 PM gui.Main log
+INFO: You can't move here! Try again.
+May 20, 2025 10:18:56 PM gui.Main logFileOnly
+INFO: Playing sound: bump
+May 20, 2025 10:18:58 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:18:58 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:18:58 PM gui.Main log
+INFO: You stride into the fiendishly not very difficult Caverns of Adoddle
+May 20, 2025 10:19:01 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:01 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:01 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:03 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:03 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:03 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:03 PM gui.Main log
+INFO: You encountered Blerp. Woah. Good luck! Time to battle!
+You hit Blerp for 3HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 5 xp.
+May 20, 2025 10:19:08 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:08 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:08 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:08 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:08 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:08 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:08 PM gui.Main log
+INFO: You've already collected the gold from here.
+May 20, 2025 10:19:09 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:09 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:09 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:11 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:11 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:11 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:11 PM gui.Main log
+INFO: You encountered Karump, wow they look disgusting. Time to battle!
+You hit Karump for 1HP.
+Karump hits you for 1HP.
+You hit Karump for 3HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 5 xp.
+May 20, 2025 10:19:12 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:12 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:12 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:12 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:12 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:12 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:12 PM gui.Main log
+INFO: You've already collected the gold from here.
+May 20, 2025 10:19:13 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:13 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:13 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:15 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:15 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:15 PM gui.Main logFileOnly
+INFO: Playing sound: stairs
+May 20, 2025 10:19:15 PM gui.Main log
+INFO: 
+**************
+You take the stairs. They lead to another dungeon. Your HP has been reset. Weird.
+
+You hold your breath as you creep through the back entrance of The Putrescent Castle of Rafflesia
+
+May 20, 2025 10:19:17 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:17 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:17 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:18 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:18 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:18 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:18 PM gui.Main log
+INFO: You encountered Glarg, who does not look happy to see you. Time to battle!
+You hit Glarg for 1HP.
+Glarg hits you for 2HP.
+You hit Glarg for 1HP.
+Glarg hits you for 3HP.
+You hit Glarg for 2HP.
+Glarg hits you for 2HP.
+You hit Glarg for 1HP.
+Glarg hits you for 1HP.
+You hit Glarg for 3HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 10 xp.
+You levelled up! Your new level is 2
+May 20, 2025 10:19:23 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:23 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:23 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:23 PM gui.Main log
+INFO: You found 2 gold!
+May 20, 2025 10:19:25 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:25 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:25 PM gui.Main log
+INFO: You spend 4 gold to open the door. It swings open with a satisfying click!
+May 20, 2025 10:19:25 PM gui.Main logFileOnly
+INFO: Playing sound: door
+May 20, 2025 10:19:25 PM gui.Main log
+INFO: An open door. You already paid the 4 gold toll.
+May 20, 2025 10:19:26 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:26 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:26 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:26 PM gui.Main log
+INFO: You've already collected the gold from here.
+May 20, 2025 10:19:28 PM gui.Main logFileOnly
+INFO: pressed help
+May 20, 2025 10:19:34 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:34 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:34 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:34 PM gui.Main log
+INFO: Here lies the corpse of Glarg
+May 20, 2025 10:19:35 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:35 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:35 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:35 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:35 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:35 PM gui.Main log
+INFO: You hold your breath as you creep through the back entrance of The Putrescent Castle of Rafflesia
+May 20, 2025 10:19:36 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:36 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:36 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:36 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:36 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:36 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:36 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:36 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:36 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:36 PM gui.Main log
+INFO: You encountered Wharg. Woah. Good luck! Time to battle!
+You hit Wharg for 5HP.
+Wharg hits you for 2HP.
+You hit Wharg for 6HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 10 xp.
+May 20, 2025 10:19:37 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:37 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:37 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:37 PM gui.Main log
+INFO: You found 2 gold!
+May 20, 2025 10:19:38 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:38 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:38 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:38 PM gui.Main log
+INFO: You encountered Wharg, who is a very hairy monster. Time to battle!
+You hit Wharg for 3HP.
+Wharg hits you for 2HP.
+You hit Wharg for 6HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 10 xp.
+May 20, 2025 10:19:39 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:39 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:39 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:39 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:39 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:39 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:39 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:39 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:39 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:40 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:40 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:40 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:41 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:41 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:41 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:41 PM gui.Main log
+INFO: You found 2 gold!
+May 20, 2025 10:19:42 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:42 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:42 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:42 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:42 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:42 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:42 PM gui.Main log
+INFO: You encountered Klerp, a terrifying beasty I must say. Time to battle!
+You hit Klerp for 2HP.
+Klerp hits you for 1HP.
+You hit Klerp for 4HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 10 xp.
+May 20, 2025 10:19:43 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:43 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:43 PM gui.Main logFileOnly
+INFO: Playing sound: stairs
+May 20, 2025 10:19:43 PM gui.Main log
+INFO: 
+You take the stairs, going down another floor...
+
+May 20, 2025 10:19:45 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:45 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:45 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:45 PM gui.Main log
+INFO: You encountered Blarg, who does not look happy to see you. Time to battle!
+You hit Blarg for 2HP.
+Blarg hits you for 2HP.
+You hit Blarg for 6HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 10 xp.
+May 20, 2025 10:19:45 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:45 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:45 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:46 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:46 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:46 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:46 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:46 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:46 PM gui.Main log
+INFO: You spend 4 gold to open the door. It swings open with a satisfying click!
+May 20, 2025 10:19:46 PM gui.Main logFileOnly
+INFO: Playing sound: door
+May 20, 2025 10:19:46 PM gui.Main log
+INFO: An open door. You already paid the 4 gold toll.
+May 20, 2025 10:19:47 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:47 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:47 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:47 PM gui.Main log
+INFO: You encountered Blerp, who is a very hairy monster. Time to battle!
+You hit Blerp for 4HP.
+Blerp hits you for 1HP.
+You hit Blerp for 4HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 10 xp.
+May 20, 2025 10:19:47 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:47 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:47 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:47 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:47 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:47 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:48 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:48 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:48 PM gui.Main logFileOnly
+INFO: Playing sound: stairs
+May 20, 2025 10:19:48 PM gui.Main log
+INFO: 
+**************
+You take the stairs. They lead to another dungeon. Your HP has been reset. Weird.
+
+You take some aspirin as you prepare to navigate the Torturous Labyrinth of Moderate-To-Really-Quite-Painful Toothache
+
+May 20, 2025 10:19:48 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:48 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:48 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:49 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:49 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:49 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:49 PM gui.Main log
+INFO: You encountered Blarg, who is a very hairy monster. Time to battle!
+You hit Blarg for 3HP.
+Blarg hits you for 2HP.
+You hit Blarg for 2HP.
+Blarg hits you for 4HP.
+You hit Blarg for 2HP.
+Blarg hits you for 3HP.
+You hit Blarg for 6HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 15 xp.
+You levelled up! Your new level is 3
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:49 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:49 PM gui.Main log
+INFO: You encountered Glarg, wow they look disgusting. Time to battle!
+You hit Glarg for 9HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 15 xp.
+May 20, 2025 10:19:50 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:50 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:50 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:50 PM gui.Main log
+INFO: You encountered Wharg. Woah. Good luck! Time to battle!
+You hit Wharg for 6HP.
+Wharg hits you for 3HP.
+You hit Wharg for 8HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 15 xp.
+May 20, 2025 10:19:51 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:51 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:51 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:51 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:51 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:51 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:51 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:19:51 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:19:51 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:51 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:52 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:52 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:52 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:52 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:52 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:52 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:52 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:52 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:52 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:52 PM gui.Main log
+INFO: You encountered Herg. Watch out! Time to battle!
+You hit Herg for 5HP.
+Herg hits you for 1HP. Weak hit!
+You hit Herg for 7HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 15 xp.
+May 20, 2025 10:19:53 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:53 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:53 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:53 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:19:53 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:53 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:53 PM gui.Main logFileOnly
+INFO: Playing sound: stairs
+May 20, 2025 10:19:53 PM gui.Main log
+INFO: 
+You take the stairs, going down another floor...
+
+May 20, 2025 10:19:55 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:55 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:55 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:56 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:56 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:56 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:56 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:56 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:56 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:56 PM gui.Main log
+INFO: You encountered Blarg - ew, slimy. Time to battle!
+You hit Blarg for 4HP.
+Blarg hits you for 3HP.
+You hit Blarg for 3HP.
+Blarg hits you for 1HP. Weak hit!
+You hit Blarg for 4HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 15 xp.
+May 20, 2025 10:19:56 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:19:56 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:56 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:56 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:57 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:57 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:57 PM gui.Main log
+INFO: You encountered Karump - ew, slimy. Time to battle!
+You hit Karump for 8HP.
+Karump hits you for 2HP.
+You hit Karump for 6HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 15 xp.
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:57 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:57 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:59 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:19:59 PM gui.Main log
+INFO: You encountered Flumpk, who is a very hairy monster. Time to battle!
+You hit Flumpk for 3HP.
+Flumpk hits you for 2HP.
+You hit Flumpk for 9HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 15 xp.
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:19:59 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:19:59 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:19:59 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:00 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:00 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:00 PM gui.Main logFileOnly
+INFO: Playing sound: stairs
+May 20, 2025 10:20:00 PM gui.Main log
+INFO: 
+You take the stairs, going down another floor...
+
+May 20, 2025 10:20:02 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:02 PM gui.Main log
+INFO: You can't move here! Try again.
+May 20, 2025 10:20:02 PM gui.Main logFileOnly
+INFO: Playing sound: bump
+May 20, 2025 10:20:03 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:03 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:03 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:03 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:03 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:03 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:03 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:03 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:03 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:03 PM gui.Main log
+INFO: You encountered Klang. Woah. Good luck! Time to battle!
+You hit Klang for 8HP.
+Klang hits you for 1HP. Weak hit!
+You hit Klang for 5HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 15 xp.
+May 20, 2025 10:20:04 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:04 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:04 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:04 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:20:04 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:04 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:04 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:05 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:05 PM gui.Main log
+INFO: You encountered Wharg. Woah. Good luck! Time to battle!
+You hit Wharg for 8HP.
+Wharg hits you for 4HP.
+You hit Wharg for 3HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 15 xp.
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:05 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:05 PM gui.Main log
+INFO: You can't move here! Try again.
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: Playing sound: bump
+May 20, 2025 10:20:05 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:06 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:06 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:06 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:06 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:06 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:06 PM gui.Main log
+INFO: You encountered Klang. He roars and stomps the ground. Uh-oh. Time to battle!
+You hit Klang for 6HP.
+Klang hits you for 4HP.
+You hit Klang for 7HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 15 xp.
+May 20, 2025 10:20:06 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:06 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:06 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:06 PM gui.Main log
+INFO: You found 3 gold!
+May 20, 2025 10:20:06 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:06 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:06 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:07 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:07 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:07 PM gui.Main logFileOnly
+INFO: Playing sound: stairs
+May 20, 2025 10:20:07 PM gui.Main log
+INFO: 
+**************
+You take the stairs. They lead to another dungeon. Your HP has been reset. Weird.
+
+The Damnable Mines of Drastic Dereliction dare your doughty derriere through its dreadful doors
+
+May 20, 2025 10:20:08 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:08 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:08 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:08 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:08 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:08 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:09 PM gui.Main log
+INFO: You encountered Flumpk. It doesn't seem to like you. Time to battle!
+You hit Flumpk for 3HP.
+Flumpk hits you for 5HP.
+You hit Flumpk for 7HP.
+Flumpk hits you for 6HP.
+You hit Flumpk for 7HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 20 xp.
+You levelled up! Your new level is 4
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:09 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:09 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:09 PM gui.Main log
+INFO: You found 4 gold!
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:09 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:09 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:10 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:10 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:10 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:11 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:11 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:11 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:11 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:11 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:11 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:11 PM gui.Main log
+INFO: You encountered Blerp, a terrifying beasty I must say. Time to battle!
+You hit Blerp for 12HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 20 xp.
+May 20, 2025 10:20:11 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:11 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:11 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:11 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:11 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:11 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:12 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:12 PM gui.Main log
+INFO: You can't move here! Try again.
+May 20, 2025 10:20:12 PM gui.Main logFileOnly
+INFO: Playing sound: bump
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:13 PM gui.Main log
+INFO: You found 4 gold!
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:13 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:13 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:13 PM gui.Main log
+INFO: You encountered Herg. Watch out! Time to battle!
+You hit Herg for 12HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 20 xp.
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:13 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:13 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:14 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:14 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:14 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:14 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:14 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:14 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:14 PM gui.Main log
+INFO: You found 4 gold!
+May 20, 2025 10:20:15 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:15 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:15 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:15 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:15 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:15 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:15 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:15 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:15 PM gui.Main logFileOnly
+INFO: Playing sound: stairs
+May 20, 2025 10:20:15 PM gui.Main log
+INFO: 
+You take the stairs, going down another floor...
+
+May 20, 2025 10:20:17 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:17 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:17 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:18 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:18 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:18 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:18 PM gui.Main log
+INFO: You found 4 gold!
+May 20, 2025 10:20:18 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:18 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:18 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:18 PM gui.Main log
+INFO: You encountered Klerp. "Grr!" they shout, very convincingly. Time to battle!
+You hit Klerp for 4HP.
+Klerp hits you for 4HP.
+You hit Klerp for 4HP.
+Klerp hits you for 4HP.
+You hit Klerp for 7HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 20 xp.
+May 20, 2025 10:20:19 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:19 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:19 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:19 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:19 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:19 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:19 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:19 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:19 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:19 PM gui.Main log
+INFO: You encountered Flumpk. It doesn't seem to like you. Time to battle!
+You hit Flumpk for 4HP.
+Flumpk hits you for 4HP.
+You hit Flumpk for 8HP.
+Ka-chunk! Blergh!
+You were victorious! You gained 20 xp.
+May 20, 2025 10:20:19 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:19 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:19 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:20 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:20 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:20 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:20 PM gui.Main log
+INFO: You found 4 gold!
+May 20, 2025 10:20:20 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:20 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:20 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:20 PM gui.Main log
+INFO: You encountered Herg. Woah. Good luck! Time to battle!
+You hit Herg for 4HP.
+Herg hits you for 5HP.
+You hit Herg for 7HP.
+Herg hits you for 4HP.
+You hit Herg for 6HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 20 xp.
+May 20, 2025 10:20:20 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:20 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:20 PM gui.Main logFileOnly
+INFO: Playing sound: stairs
+May 20, 2025 10:20:20 PM gui.Main log
+INFO: 
+You take the stairs, going down another floor...
+
+May 20, 2025 10:20:22 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:22 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:22 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:23 PM gui.Main logFileOnly
+INFO: pressed help
+May 20, 2025 10:20:24 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:24 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:24 PM gui.Main log
+INFO: The Damnable Mines of Drastic Dereliction dare your doughty derriere through its dreadful doors
+May 20, 2025 10:20:24 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:24 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:24 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:25 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:25 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:25 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:25 PM gui.Main log
+INFO: You encountered Klerp, who does not look happy to see you. Time to battle!
+You hit Klerp for 7HP.
+Klerp hits you for 6HP.
+You hit Klerp for 4HP.
+Klerp hits you for 3HP.
+You hit Klerp for 7HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 20 xp.
+May 20, 2025 10:20:25 PM gui.Main logFileOnly
+INFO: pressed down
+May 20, 2025 10:20:25 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:25 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:25 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:25 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:25 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:25 PM gui.Main log
+INFO: You encountered Wharg, a terrifying beasty I must say. Time to battle!
+You hit Wharg for 12HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 20 xp.
+May 20, 2025 10:20:26 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:26 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:26 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:26 PM gui.Main logFileOnly
+INFO: pressed right
+May 20, 2025 10:20:26 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:26 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:26 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:26 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:26 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:27 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:27 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:27 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:27 PM gui.Main log
+INFO: You found 4 gold!
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:27 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:27 PM gui.Main log
+INFO: You encountered Blerp, who is a very hairy monster. Time to battle!
+You hit Blerp for 5HP.
+Blerp hits you for 6HP.
+You hit Blerp for 8HP.
+Pow! Biff! Wallop! Knock out!
+You were victorious! You gained 20 xp.
+May 20, 2025 10:20:28 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:28 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:28 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:28 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:28 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:28 PM gui.Main logFileOnly
+INFO: Playing sound: gold
+May 20, 2025 10:20:28 PM gui.Main log
+INFO: You found 4 gold!
+May 20, 2025 10:20:29 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:29 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:29 PM gui.Main log
+INFO: There is nothing here
+May 20, 2025 10:20:29 PM gui.Main logFileOnly
+INFO: pressed up
+May 20, 2025 10:20:29 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:29 PM gui.Main logFileOnly
+INFO: Playing sound: battle
+May 20, 2025 10:20:29 PM gui.Main log
+INFO: You encountered Wharg. It doesn't seem to like you. Time to battle!
+You hit Wharg for 4HP.
+Wharg hits you for 3HP.
+You hit Wharg for 7HP.
+Wharg hits you for 3HP.
+You hit Wharg for 4HP.
+The monster comes crashing to the floor...
+You were victorious! You gained 20 xp.
+May 20, 2025 10:20:30 PM gui.Main logFileOnly
+INFO: pressed left
+May 20, 2025 10:20:30 PM gui.Main logFileOnly
+INFO: Playing sound: move
+May 20, 2025 10:20:30 PM gui.Main logFileOnly
+INFO: Playing sound: stairs
+May 20, 2025 10:20:30 PM gui.Main log
+INFO: 
+You take the stairs, going down another floor...
+
+May 20, 2025 10:20:31 PM gui.Main logFileOnly
+INFO: pressed quit

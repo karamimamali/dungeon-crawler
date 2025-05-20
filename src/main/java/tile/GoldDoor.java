@@ -5,7 +5,7 @@ package tile;
  * and pass through it.
  *
  * @version 1.0
- * @author tp275
+ * @author karamimamali
  */
 public class GoldDoor extends tile.Tile {
 

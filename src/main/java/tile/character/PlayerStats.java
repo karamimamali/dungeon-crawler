@@ -6,7 +6,7 @@ import java.util.Random;
  * Holds relevant player stats - xp, level and amount of gold - and provides useful methods
  *
  * @version 1.1
- * @author tp275
+ * @author karamimamali
  */
 public class PlayerStats {
 

@@ -4,7 +4,7 @@ package tile;
  * A Stairs tile, should send the player down a level in the dungeon, or to the next dungeon
  * 
  * @version 1.0
- * @author tp275
+ * @author karamimamali
  */
 public class Stairs extends tile.Tile {
 

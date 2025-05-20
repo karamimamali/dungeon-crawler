@@ -5,7 +5,7 @@ package tile;
  * to be empty tiles on the floor.
  * 
  * @version 1.0
- * @author tp275
+ * @author karamimamali
  */
 public class Empty extends tile.Tile {
 

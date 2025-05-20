@@ -11,7 +11,7 @@ import tile.Tile;
  * there may need to be changes if this is added back in.
  * 
  * @version 1.0
- * @author tp275
+ * @author karamimamali
  */
 public class Character extends Tile {
 

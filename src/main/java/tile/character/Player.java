@@ -16,7 +16,7 @@ import tile.Tile;
  * Also keeps track of the location of the player on the current floor.
  *
  * @version 2.1
- * @author tp275
+ * @author karamimamali
  */
 public class Player extends Character {
 

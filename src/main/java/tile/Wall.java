@@ -5,7 +5,7 @@ package tile;
  * player should not be able to move here or interact with the tile
  * 
  * @version 1.0
- * @author tp275
+ * @author karamimamali
  */
 public class Wall extends Tile {
 

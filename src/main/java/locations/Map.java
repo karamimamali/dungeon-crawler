@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Populates and holds in an ArrayList all the Dungeon objects in the game world
  *
  * @version 1.0
- * @author tp275
+ * @author karamimamali
  */
 public class Map {
 

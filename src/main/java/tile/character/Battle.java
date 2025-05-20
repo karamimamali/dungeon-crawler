@@ -5,7 +5,7 @@ package tile.character;
  * by certain amounts of damage, and ultimately returning a large string describing the battle
  *
  * @version 1.0
- * @author tp275
+ * @author karamimamali
  */
 public class Battle {
 

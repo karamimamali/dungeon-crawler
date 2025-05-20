@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Creates and stores Floors. Difficulty level sets floor difficulty and number of floors.
  * 
  * @version 1.0
- * @author tp275
+ * @author karamimamali
  */
 public class Dungeon {
 

@@ -5,7 +5,7 @@ package tile;
  * Has a certain value that can be varied with eg. difficulty
  *
  * @version 1.1
- * @author tp275
+ * @author karamimamali
  */
 public class Gold extends tile.Tile {
 

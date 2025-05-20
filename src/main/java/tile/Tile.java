@@ -5,7 +5,7 @@ package tile;
  * anything that should be encountered or move around the Floor.
  * 
  * @version 1.0
- * @author tp275
+ * @author karamimamali
  */
 public class Tile {
 

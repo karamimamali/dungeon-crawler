@@ -19,7 +19,7 @@ import tile.character.Enemy;
  * Creates from a file and stores a HashMap of the floor, as Points and Tiles.
  *
  * @version 2.1
- * @author tp275
+ * @author karamimamali
  */
 public class Floor {
 

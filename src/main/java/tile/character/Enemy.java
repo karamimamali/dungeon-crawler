@@ -12,7 +12,7 @@ import java.util.Random;
  * therefore has hp, a level and a living status to aid this as well as damage calculated here.
  *
  * @version 1.1
- * @author tp275
+ * @author karamimamali
  */
 public class Enemy extends Character {
 

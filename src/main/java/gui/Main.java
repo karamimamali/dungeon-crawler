@@ -1,12 +1,12 @@
 package gui;
 
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
 import javax.swing.text.SimpleAttributeSet;
 import tile.GoldDoor;
 import tile.Stairs;
-import tile.Start;
 import tile.Gold;
-import tile.Empty;
-import tile.Wall;
 import tile.Tile;
 import tile.character.Enemy;
 import tile.character.Player;
@@ -32,7 +32,7 @@ import java.util.logging.SimpleFormatter;
  * Enhanced Main GUI class with improved visualizations
  *
  * @version 2.0
- * @author tp275, yourusername
+ * @author tp275, karamimamali
  */
 public class Main extends JFrame {
 
@@ -48,6 +48,8 @@ public class Main extends JFrame {
     // Game state
     private Player player;
     private Logger logger;
+
+    private Clip backgroundMusic;
 
     // Visual elements
     private final Color BACKGROUND_COLOR = new Color(32, 32, 40);
@@ -82,6 +84,7 @@ public class Main extends JFrame {
         initializeUI();
         initializeGame();
         initializeAnimations();
+        playBackgroundMusic("/music/fight-for-the-future-336841.wav");
     }
 
     private void initializeTileColors() {
@@ -321,6 +324,11 @@ public class Main extends JFrame {
         soundToggle.addActionListener(e -> {
             soundEnabled = !soundEnabled;
             soundToggle.setText("Sound: " + (soundEnabled ? "ON" : "OFF"));
+            if (soundEnabled) {
+                playBackgroundMusic("/music/fight-for-the-future-336841.wav");
+            } else {
+                stopBackgroundMusic();
+            }
         });
         soundPanel.add(soundToggle);
 
@@ -593,6 +601,28 @@ public class Main extends JFrame {
             }
         }
     }
+
+
+
+    private void playBackgroundMusic(String filepath) {
+        try {
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(getClass().getResource(filepath));
+            backgroundMusic = AudioSystem.getClip();
+            backgroundMusic.open(audioInputStream);
+            backgroundMusic.loop(Clip.LOOP_CONTINUOUSLY); // Loops indefinitely
+        } catch (Exception e) {
+            System.err.println("Error loading background music: " + e.getMessage());
+        }
+    }
+
+
+    private void stopBackgroundMusic() {
+        if (backgroundMusic != null && backgroundMusic.isRunning()) {
+            backgroundMusic.stop();
+            backgroundMusic.close();
+        }
+    }
+
 
     private String getDirectionName(Point movement) {
         if (movement.x == -1 && movement.y == 0) return "up";
@@ -1101,21 +1131,21 @@ public class Main extends JFrame {
         // For this example, we'll just log it
         logFileOnly("Playing sound: " + soundType);
 
-        // A real implementation would load and play sounds like this:
-        /*
-        try {
-            // Load the sound file
-            java.net.URL soundURL = getClass().getResource("/sounds/" + soundType + ".wav");
-            if (soundURL != null) {
-                AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundURL);
-                Clip clip = AudioSystem.getClip();
-                clip.open(audioIn);
-                clip.start();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        */
+        // A real implementation would load and play music like this:
+
+//        try {
+//            // Load the sound file
+//            java.net.URL soundURL = getClass().getResource("/music/" + soundType + ".wav");
+//            if (soundURL != null) {
+//                AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundURL);
+//                Clip clip = AudioSystem.getClip();
+//                clip.open(audioIn);
+//                clip.start();
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
     }
 
     public static void main(String[] args) {

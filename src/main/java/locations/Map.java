@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Populates and holds in an ArrayList all the Dungeon objects in the game world
  *
- * @version 1.1
+ * @version 1.0
  * @author tp275
  */
 public class Map {
@@ -13,7 +13,7 @@ public class Map {
     // a list holding each dungeon object on the map, in visiting order, with ascending difficulty
     private final ArrayList<Dungeon> dungeonList = new ArrayList<>();
     // the limit on the amount of dungeons in the map
-    private final int howManyDungeons = 5; // Increased to 5 to include the final dungeon
+    private final int howManyDungeons = 4;
 
     /**
      * Populates the list of dungeons

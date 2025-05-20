@@ -246,7 +246,8 @@ public class Player extends Character {
      * @return True if location is valid, else false
      */
     private boolean setFloorLocation(Point location) {
-        if (getCurrentFloor().checkValidPlayerLocation(location)) {
+        // Use the enhanced checkValidPlayerLocation method that passes the player object
+        if (getCurrentFloor().checkValidPlayerLocation(location, this)) {
             this.floorLocation = location;
             return true;
         }

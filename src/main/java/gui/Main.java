@@ -194,81 +194,46 @@ public class Main extends JFrame {
     }
 
     private void play(Point movement) {
-        // First check if we're trying to move onto a gold door
+        // Check the target location before moving
         Point targetPosition = new Point(player.getFloorLocation().x + movement.x, player.getFloorLocation().y + movement.y);
         Tile targetTile = player.getCurrentFloor().getTileByPoint(targetPosition);
 
-        // Variable to track if we're attempting to move to a gold door
+        // Check if we're moving onto a gold door
         boolean movingToGoldDoor = false;
         int doorCost = 0;
-        int playerGold = player.getGold();
+        boolean doorWasOpen = false;
 
-        // If we're trying to move to a gold door and it's closed, check and display cost info
-        if (targetTile instanceof GoldDoor && !((GoldDoor)targetTile).isOpen()) {
-            GoldDoor door = (GoldDoor)targetTile;
+        if (targetTile instanceof GoldDoor) {
+            GoldDoor door = (GoldDoor) targetTile;
             movingToGoldDoor = true;
             doorCost = door.getCost();
+            doorWasOpen = door.isOpen();
         }
 
         // Try to move (will automatically open door if player has enough gold)
         boolean moved = player.updateLocation(movement);
 
         if (moved) {
-            // If we moved to what was a closed gold door, it must have opened automatically
-            if (movingToGoldDoor) {
-                log("You spend " + doorCost + " gold to open the gold door. It swings open, allowing you to pass through.\n");
+            // If we moved onto a gold door that wasn't open before, it must have been
+            // automatically opened (since we successfully moved there)
+            if (movingToGoldDoor && !doorWasOpen) {
+                log("You spend " + doorCost + " gold to open the door. It swings open with a satisfying click!\n");
             }
 
+            // Play the tile and update game state
             log(playTile());
             updateMap();
             updateStats();
             updatePicture();
             checkFinished();
         } else {
-            // If we tried to move to a gold door but couldn't, it's because we don't have enough gold
-            if (movingToGoldDoor) {
-                // The message should only state that the player cannot pass if they don't have enough gold
-                if (playerGold < doorCost) {
-                    log("This door requires " + doorCost + " gold to open. You only have " + playerGold + " gold. You cannot pass through.\n");
-                } else {
-                    // This should never happen if the automatic door opening is working correctly
-                    // but we'll add it as a fallback just in case
-                    log("Error: You should be able to open this door with your " + playerGold + " gold.\n");
-                }
+            // If we tried to move to a gold door but couldn't, explain why
+            if (movingToGoldDoor && !doorWasOpen) {
+                log("This door requires " + doorCost + " gold to open. You only have " + player.getGold() + " gold. You cannot pass through.\n");
             } else {
                 log("You can't move here! Try again.\n");
             }
         }
-    }
-
-    private void updateMap() {
-        String rawMap = player.getPrintableMap();
-        String spacedMap = addSpacesBetweenChars(rawMap);
-        map.setText("<html><pre>" + spacedMap + "</pre></html>");
-
-        // Map legend
-        String legend = "\nMap Legend:\n" +
-                "P = Player\n" +
-                "g = Gold\n" +
-                "e = Enemy\n" +
-                "d = Gold Door (closed)\n" +
-                "D = Gold Door (open)\n" +
-                "x = Stairs\n" +
-                "s = Start\n" +
-                "o = Empty";
-    }
-
-    private String addSpacesBetweenChars(String mapText) {
-        StringBuilder spacedMap = new StringBuilder();
-        String[] lines = mapText.split("\n");
-        for (String line : lines) {
-            for (int i = 0; i < line.length(); i++) {
-                spacedMap.append(line.charAt(i));
-                if (i < line.length() - 1) spacedMap.append(' ');
-            }
-            spacedMap.append('\n');
-        }
-        return spacedMap.toString();
     }
 
     private String playTile() {
@@ -309,6 +274,36 @@ public class Main extends JFrame {
             log("Error loading image: " + e.getMessage() + "\n");
             image.setIcon(null);
         }
+    }
+
+    private void updateMap() {
+        String rawMap = player.getPrintableMap();
+        String spacedMap = addSpacesBetweenChars(rawMap);
+        map.setText("<html><pre>" + spacedMap + "</pre></html>");
+
+        // Map legend
+        String legend = "\nMap Legend:\n" +
+                "P = Player\n" +
+                "g = Gold\n" +
+                "e = Enemy\n" +
+                "d = Gold Door (closed)\n" +
+                "D = Gold Door (open)\n" +
+                "x = Stairs\n" +
+                "s = Start\n" +
+                "o = Empty";
+    }
+
+    private String addSpacesBetweenChars(String mapText) {
+        StringBuilder spacedMap = new StringBuilder();
+        String[] lines = mapText.split("\n");
+        for (String line : lines) {
+            for (int i = 0; i < line.length(); i++) {
+                spacedMap.append(line.charAt(i));
+                if (i < line.length() - 1) spacedMap.append(' ');
+            }
+            spacedMap.append('\n');
+        }
+        return spacedMap.toString();
     }
 
     private void checkFinished() {
